@@ -1,0 +1,4 @@
+enum Geschlecht {
+  maennlich,
+  weiblich
+}
