@@ -6,6 +6,7 @@ class Teilnehmer {
   String vorname;
   String nachname;
   Geschlecht geschlecht;
+  Zutrittsberechtigung zutrittsberechtigung;
  
   
 
@@ -13,7 +14,7 @@ class Teilnehmer {
     this.vorname,
     this.nachname,
     this.geschlecht,
-  );
+  ) : zutrittsberechtigung = Zutrittsberechtigung();
   
    
 

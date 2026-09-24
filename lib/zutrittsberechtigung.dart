@@ -3,10 +3,11 @@ import 'dart:math';
 class Zutrittsberechtigung {
   int code;
 
- Zutrittsberechtigung();
+ Zutrittsberechtigung() : code = randomCode();
 
- int randomCode() {
+ static int randomCode() {
   Random random = Random();
+  return random.nextInt(1000000000);
 
  }
 }
